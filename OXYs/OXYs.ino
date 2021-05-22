@@ -1,6 +1,6 @@
 enum State_enum {Relanti, CNP, Masurare, Alerta, Salvare_24};
 enum Senzor_enum {NONE, Sensor_puls, ecran, BOTH};
-
+//oxys
 void state_machine_run(uint8_t senzor);
 void introdu_CNP();
 void salveaza_CNP();
